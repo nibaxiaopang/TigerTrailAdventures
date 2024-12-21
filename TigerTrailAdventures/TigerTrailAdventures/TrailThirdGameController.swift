@@ -2,13 +2,13 @@
 //  ThirdGame.swift
 //  TigerTrail Adventures
 //
-//  Created by jin fu on 2024/12/21.
+//  Created by TigerTrail Adventures on 2024/12/21.
 //
 
 
 import UIKit
 
-class ThirdGame: UIViewController {
+class TrailThirdGameController: UIViewController {
     
     // MARK: - Outlets
     @IBOutlet weak var collectionView: UICollectionView!
@@ -89,7 +89,7 @@ class ThirdGame: UIViewController {
 }
 
 // MARK: - UICollectionView DataSource & Delegate
-extension ThirdGame: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+extension TrailThirdGameController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return numbers.count
@@ -176,7 +176,7 @@ extension ThirdGame: UICollectionViewDataSource, UICollectionViewDelegate, UICol
 
 // MARK: - UICollectionView Drag & Drop Delegates
 @available(iOS 14.0, *)
-extension ThirdGame: UICollectionViewDragDelegate, UICollectionViewDropDelegate {
+extension TrailThirdGameController: UICollectionViewDragDelegate, UICollectionViewDropDelegate {
     
     func collectionView(_ collectionView: UICollectionView, itemsForBeginning session: UIDragSession, at indexPath: IndexPath) -> [UIDragItem] {
         let number = numbers[indexPath.item]

@@ -1,0 +1,75 @@
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "3QG-VZ-cfP"; */
+"3QG-VZ-cfP.normalTitle" = "Submit";
+
+/* Class = "UILabel"; text = "Start"; ObjectID = "6TF-5X-Yq6"; */
+"6TF-5X-Yq6.text" = "Start";
+
+/* Class = "UILabel"; text = "Timer"; ObjectID = "6o3-jM-FfX"; */
+"6o3-jM-FfX.text" = "Timer";
+
+/* Class = "UILabel"; text = "Numerix Adventure"; ObjectID = "9ok-or-HL0"; */
+"9ok-or-HL0.text" = "Numerix Adventure";
+
+/* Class = "UILabel"; text = "Highway Hustle"; ObjectID = "Aca-eq-w1F"; */
+"Aca-eq-w1F.text" = "Highway Hustle";
+
+/* Class = "UILabel"; text = "Privacy Policy"; ObjectID = "CYc-C4-DWh"; */
+"CYc-C4-DWh.text" = "Privacy Policy";
+
+/* Class = "UILabel"; text = "Setting"; ObjectID = "D43-fn-NeC"; */
+"D43-fn-NeC.text" = "Setting";
+
+/* Class = "UITextView"; text = "TigerTrail Adventures\nWelcome TigerTrail Adventures, the ultimate destination for thrilling adventures, strategic challenges, and endless fun! Our app is a vibrant universe where every tap and swipe takes you closer to glory. From fast-paced journeys on highways to strategic number-matching in mystical jungleTigerTrail Adventures offers a diverse gaming experience that keeps players of all ages engaged.\n\nExplore Our Games:\n\t•\tHighway Hustle: Put your reflexes to the test in this adrenaline-pumping highway adventure. Dodge obstacles, race against time, and collect rewards as you conquer the fast lanes.\n\t•\tJungle Saga: Dive into the heart of the jungle in this epic puzzle journey. Match pairs, unlock secrets, and explore the depths of a magical wilderness.\n\t•\tNumerix Adventure: A brain-boosting challenge that combines strategy and speed. Match numbers, score points, and prove your mastery in a thrilling 5x5 grid challenge!\n\nTigerTrail Adventures, we believe in crafting games that are not only entertaining but also push the boundaries of creativity and challenge. Join us in this saga of heroics and embark on adventures that test your skill, wit, and perseverance."; ObjectID = "EXt-xd-VMS"; */
+"EXt-xd-VMS.text" = "TigerTrail Adventures\nWelcome TigerTrail Adventures, the ultimate destination for thrilling adventures, strategic challenges, and endless fun! Our app is a vibrant universe where every tap and swipe takes you closer to glory. From fast-paced journeys on highways to strategic number-matching in mystical jungleTigerTrail Adventures offers a diverse gaming experience that keeps players of all ages engaged.\n\nExplore Our Games:\n\t•\tHighway Hustle: Put your reflexes to the test in this adrenaline-pumping highway adventure. Dodge obstacles, race against time, and collect rewards as you conquer the fast lanes.\n\t•\tJungle Saga: Dive into the heart of the jungle in this epic puzzle journey. Match pairs, unlock secrets, and explore the depths of a magical wilderness.\n\t•\tNumerix Adventure: A brain-boosting challenge that combines strategy and speed. Match numbers, score points, and prove your mastery in a thrilling 5x5 grid challenge!\n\nTigerTrail Adventures, we believe in crafting games that are not only entertaining but also push the boundaries of creativity and challenge. Join us in this saga of heroics and embark on adventures that test your skill, wit, and perseverance.";
+
+/* Class = "UILabel"; text = "Jungle Saga"; ObjectID = "JMP-1G-3nP"; */
+"JMP-1G-3nP.text" = "Jungle Saga";
+
+/* Class = "UILabel"; text = "Numerix Adventure"; ObjectID = "Vhs-Dg-hQ6"; */
+"Vhs-Dg-hQ6.text" = "Numerix Adventure";
+
+/* Class = "UILabel"; text = "About Us"; ObjectID = "Vsf-ma-9JZ"; */
+"Vsf-ma-9JZ.text" = "About Us";
+
+/* Class = "UILabel"; text = "Privacy Policy"; ObjectID = "WPL-9P-tqT"; */
+"WPL-9P-tqT.text" = "Privacy Policy";
+
+/* Class = "UILabel"; text = "Highway Hustle"; ObjectID = "bA5-Je-GlC"; */
+"bA5-Je-GlC.text" = "Highway Hustle";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "caZ-K2-x7L"; */
+"caZ-K2-x7L.text" = "Label";
+
+/* Class = "UILabel"; text = "Jungle Saga"; ObjectID = "crY-tO-cF1"; */
+"crY-tO-cF1.text" = "Jungle Saga";
+
+/* Class = "UILabel"; text = "Score"; ObjectID = "e1j-Y5-n1l"; */
+"e1j-Y5-n1l.text" = "Score";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "egJ-0W-srC"; */
+"egJ-0W-srC.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fqd-Ni-fDw"; */
+"fqd-Ni-fDw.text" = "Label";
+
+/* Class = "UILabel"; text = "Home"; ObjectID = "g7S-7e-0eL"; */
+"g7S-7e-0eL.text" = "Home";
+
+/* Class = "UILabel"; text = "About Us"; ObjectID = "mXP-De-L1W"; */
+"mXP-De-L1W.text" = "About Us";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "otP-VX-dm1"; */
+"otP-VX-dm1.text" = "Label";
+
+/* Class = "UILabel"; text = "Score"; ObjectID = "pYf-N5-Dhm"; */
+"pYf-N5-Dhm.text" = "Score";
+
+/* Class = "UILabel"; text = "FeedBack"; ObjectID = "spz-gm-osb"; */
+"spz-gm-osb.text" = "FeedBack";
+
+/* Class = "UILabel"; text = "FeedBack"; ObjectID = "w0s-6x-NpG"; */
+"w0s-6x-NpG.text" = "FeedBack";
+
+/* Class = "UILabel"; text = "HeroicKingdom \nSaga"; ObjectID = "xdP-Oo-pZ6"; */
+"xdP-Oo-pZ6.text" = "HeroicKingdom \nSaga";

@@ -1,13 +1,15 @@
 //
-//  ViewController.swift
+//  SecondGame.swift
 //  TigerTrail Adventures
 //
-//  Created by jin fu on 2024/12/21.
+//  Created by TigerTrail Adventures on 2024/12/21.
 //
+
 
 import UIKit
 
-class ViewController: UIViewController {
+class TrailSecondGameController: UIViewController {
+    
     @IBOutlet weak var gameView: UIView!
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var timerLabel: UILabel!
@@ -22,9 +24,9 @@ class ViewController: UIViewController {
     private var playerCar: UIImageView!
     private var longPressGesture: UILongPressGestureRecognizer!
     private let initialCarXPosition: CGFloat = 100
-    private var gameTime: Int = 60 // Game duration in seconds
+    private var gameTime: Int = 60
     private var countdownTimer: Timer?
-    private var obstacleImages = ["obstacle1", "obstacle2", "obstacle3"] // Add your obstacle image names
+    private var obstacleImages = ["obstacle4", "obstacle5", "obstacle6"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,13 +37,16 @@ class ViewController: UIViewController {
     
     private func setupGameUI() {
         // Create player car programmatically with larger size
+        let bottomPadding: CGFloat = 20  // Adjust this value for desired distance from bottom
+        let carY = view.bounds.height - 160 - bottomPadding  // 160 is car height
+        
         playerCar = UIImageView(frame: CGRect(x: initialCarXPosition,
-                                            y: view.bounds.height/2 - 40, // Adjusted for larger height
+                                            y: carY,
                                             width: 80,  // Increased width
                                             height: 160)) // Increased height
         
         // Set car image
-        if let carImage = UIImage(named: "ic_car") {
+        if let carImage = UIImage(named: "ic_lion") {
             playerCar.image = carImage
         } else {
             playerCar.backgroundColor = .red
@@ -72,14 +77,6 @@ class ViewController: UIViewController {
     }
     
     private func setupControls() {
-        // Add up, down, and right swipe gestures
-        let upSwipe = UISwipeGestureRecognizer(target: self, action: #selector(handleSwipe(_:)))
-        upSwipe.direction = .up
-        view.addGestureRecognizer(upSwipe)
-        
-        let downSwipe = UISwipeGestureRecognizer(target: self, action: #selector(handleSwipe(_:)))
-        downSwipe.direction = .down
-        view.addGestureRecognizer(downSwipe)
         
         let rightSwipe = UISwipeGestureRecognizer(target: self, action: #selector(handleSwipe(_:)))
         rightSwipe.direction = .right
@@ -191,41 +188,49 @@ class ViewController: UIViewController {
     
     private func createObstacle() {
         let obstacleSize = CGSize(width: 60, height: 120)
-        let randomY = CGFloat.random(in: gameView.bounds.minY...(gameView.bounds.height - obstacleSize.height))
+        let bottomPadding: CGFloat = 20
         
-        let obstacle = UIImageView(frame: CGRect(x: gameView.bounds.width + obstacleSize.width,
-                                               y: randomY,
-                                               width: obstacleSize.width,
-                                               height: obstacleSize.height))
+        // Calculate obstacle's y-position to align with the bottom of the gameView
+        let obstacleY = gameView.bounds.height - obstacleSize.height / 1.2 /* - bottomPadding*/
         
+        // Create obstacle frame starting from the right edge of the gameView
+        let obstacle = UIImageView(frame: CGRect(x: gameView.bounds.width,
+                                                 y: obstacleY,
+                                                 width: obstacleSize.width,
+                                                 height: obstacleSize.height))
+        
+        // Set obstacle image or fallback background color
         if let randomObstacle = obstacleImages.randomElement(),
            let obstacleImage = UIImage(named: randomObstacle) {
             obstacle.image = obstacleImage
+            obstacle.backgroundColor = .clear
         } else {
-            obstacle.backgroundColor = .yellow // Fallback color to make collision visible
+            obstacle.backgroundColor = .yellow
         }
         
         obstacle.contentMode = .scaleAspectFit
-        obstacle.layer.zPosition = 100
+        obstacle.layer.zPosition = 50
+        obstacle.clipsToBounds = false
         
+        // Add the obstacle to the gameView
         gameView.addSubview(obstacle)
         obstacles.append(obstacle)
         
+        print("Created obstacle at y: \(obstacleY)") // Debug print
+        
+        // Animate the obstacle moving from right to left across the screen
         UIView.animate(withDuration: 2.0,
-                      delay: 0,
-                      options: [.curveLinear],
-                      animations: {
+                       delay: 0,
+                       options: [.curveLinear],
+                       animations: {
             obstacle.frame.origin.x = -obstacleSize.width
         }) { [weak self] _ in
+            // Remove the obstacle after the animation ends
             obstacle.removeFromSuperview()
             if let index = self?.obstacles.firstIndex(of: obstacle) {
                 self?.obstacles.remove(at: index)
             }
         }
-    }
-    
-    @IBAction func btnBack(_ sender : UIButton){
-        navigationController?.popViewController(animated: true)
     }
     
     private func checkCollision() {
@@ -383,6 +388,10 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func btnBack(_ sender : UIButton){
+        navigationController?.popViewController(animated: true)
+    }
+    
     private func updateTimer() {
         gameTime -= 1
         timerLabel.text = "Time: \(gameTime)"
@@ -398,10 +407,13 @@ class ViewController: UIViewController {
         
         // Update player car position after layout changes
         if !isGameRunning {
+            let bottomPadding: CGFloat = 20
+            let carY = view.bounds.height - 160 - bottomPadding
+            
             playerCar.frame = CGRect(x: initialCarXPosition,
-                                   y: view.bounds.height/2 - 40, // Adjusted for larger height
-                                   width: 80,  // Increased width
-                                   height: 160) // Increased height
+                                   y: carY,
+                                   width: 80,
+                                   height: 160)
         }
         
         // Update container and image views frames after layout
@@ -433,10 +445,12 @@ class ViewController: UIViewController {
     
     // Add this method to reset car position when game starts/restarts
     private func resetCarPosition() {
+        let bottomPadding: CGFloat = 20
+        let carY = view.bounds.height - 160 - bottomPadding
+        
         playerCar.frame = CGRect(x: initialCarXPosition,
-                               y: view.bounds.height/2 - 40, // Adjusted for larger height
-                               width: 80,  // Increased width
-                               height: 160) // Increased height
+                               y: carY,
+                               width: 80,
+                               height: 160)
     }
 }
-

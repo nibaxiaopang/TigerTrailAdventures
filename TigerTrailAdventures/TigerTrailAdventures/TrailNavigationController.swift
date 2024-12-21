@@ -1,13 +1,13 @@
 //
-//  TrailHomeViewController.swift
+//  TrailNavigationController.swift
 //  TigerTrail Adventures
 //
-//  Created by jin fu on 2024/12/21.
+//  Created by TigerTrail Adventures on 2024/12/21.
 //
 
 import UIKit
 
-class TrailHomeViewController: UIViewController {
+class TrailNavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,6 +16,10 @@ class TrailHomeViewController: UIViewController {
     }
     
 
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .landscape
+    }
+    
     /*
     // MARK: - Navigation
 

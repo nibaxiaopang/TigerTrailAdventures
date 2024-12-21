@@ -2,14 +2,14 @@
 //  AboutUs.swift
 //  TigerTrail Adventures
 //
-//  Created by jin fu on 2024/12/21.
+//  Created by TigerTrail Adventures on 2024/12/21.
 //
 
 
 import UIKit
 
 
-class AboutUs: UIViewController {
+class TrailAboutUsController: UIViewController {
 
     //MARK: - Declare IBOutlets
     

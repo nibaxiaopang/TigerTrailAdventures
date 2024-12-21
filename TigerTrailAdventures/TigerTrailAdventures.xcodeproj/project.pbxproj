@@ -7,33 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F5CBA51273ECB1BCFD9A78F6 /* Pods_TigerTrail_Adventures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3700425DABD6A80ACDC22FA9 /* Pods_TigerTrail_Adventures.framework */; };
+		0D410424115B7849FF3C467D /* Pods_TigerTrailAdventures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6914506AA6B4CCAC0BD3D78 /* Pods_TigerTrailAdventures.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0502C853337A02B06C62AB0B /* Pods-TigerTrailAdventures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TigerTrailAdventures.release.xcconfig"; path = "Target Support Files/Pods-TigerTrailAdventures/Pods-TigerTrailAdventures.release.xcconfig"; sourceTree = "<group>"; };
 		16809C97E08F5D45E474D862 /* Pods-TigerTrail Adventures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TigerTrail Adventures.release.xcconfig"; path = "Target Support Files/Pods-TigerTrail Adventures/Pods-TigerTrail Adventures.release.xcconfig"; sourceTree = "<group>"; };
-		3700425DABD6A80ACDC22FA9 /* Pods_TigerTrail_Adventures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TigerTrail_Adventures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5410C47C836E4E766F84AB5E /* Pods-TigerTrail Adventures.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TigerTrail Adventures.debug.xcconfig"; path = "Target Support Files/Pods-TigerTrail Adventures/Pods-TigerTrail Adventures.debug.xcconfig"; sourceTree = "<group>"; };
-		FFCDE0E32D16AE74001719BE /* TigerTrail Adventures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TigerTrail Adventures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6914506AA6B4CCAC0BD3D78 /* Pods_TigerTrailAdventures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TigerTrailAdventures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDADE124AF27BD5A4AC0941 /* Pods-TigerTrailAdventures.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TigerTrailAdventures.debug.xcconfig"; path = "Target Support Files/Pods-TigerTrailAdventures/Pods-TigerTrailAdventures.debug.xcconfig"; sourceTree = "<group>"; };
+		FFCDE0E32D16AE74001719BE /* TigerTrailAdventures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TigerTrailAdventures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		FFCDE0F52D16AE75001719BE /* Exceptions for "TigerTrail Adventures" folder in "TigerTrail Adventures" target */ = {
+		FFCDE0F52D16AE75001719BE /* Exceptions for "TigerTrailAdventures" folder in "TigerTrailAdventures" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = FFCDE0E22D16AE74001719BE /* TigerTrail Adventures */;
+			target = FFCDE0E22D16AE74001719BE /* TigerTrailAdventures */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FFCDE0E52D16AE74001719BE /* TigerTrail Adventures */ = {
+		FFCDE0E52D16AE74001719BE /* TigerTrailAdventures */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				FFCDE0F52D16AE75001719BE /* Exceptions for "TigerTrail Adventures" folder in "TigerTrail Adventures" target */,
+				FFCDE0F52D16AE75001719BE /* Exceptions for "TigerTrailAdventures" folder in "TigerTrailAdventures" target */,
 			);
-			path = "TigerTrail Adventures";
+			path = TigerTrailAdventures;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -43,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5CBA51273ECB1BCFD9A78F6 /* Pods_TigerTrail_Adventures.framework in Frameworks */,
+				0D410424115B7849FF3C467D /* Pods_TigerTrailAdventures.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +55,7 @@
 		04E64CD272D97A8D862192B6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3700425DABD6A80ACDC22FA9 /* Pods_TigerTrail_Adventures.framework */,
+				D6914506AA6B4CCAC0BD3D78 /* Pods_TigerTrailAdventures.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -63,6 +65,8 @@
 			children = (
 				5410C47C836E4E766F84AB5E /* Pods-TigerTrail Adventures.debug.xcconfig */,
 				16809C97E08F5D45E474D862 /* Pods-TigerTrail Adventures.release.xcconfig */,
+				DDDADE124AF27BD5A4AC0941 /* Pods-TigerTrailAdventures.debug.xcconfig */,
+				0502C853337A02B06C62AB0B /* Pods-TigerTrailAdventures.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -70,7 +74,7 @@
 		FFCDE0DA2D16AE74001719BE = {
 			isa = PBXGroup;
 			children = (
-				FFCDE0E52D16AE74001719BE /* TigerTrail Adventures */,
+				FFCDE0E52D16AE74001719BE /* TigerTrailAdventures */,
 				FFCDE0E42D16AE74001719BE /* Products */,
 				5815FF07E598984FF0FBA3D5 /* Pods */,
 				04E64CD272D97A8D862192B6 /* Frameworks */,
@@ -80,7 +84,7 @@
 		FFCDE0E42D16AE74001719BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FFCDE0E32D16AE74001719BE /* TigerTrail Adventures.app */,
+				FFCDE0E32D16AE74001719BE /* TigerTrailAdventures.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,26 +92,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FFCDE0E22D16AE74001719BE /* TigerTrail Adventures */ = {
+		FFCDE0E22D16AE74001719BE /* TigerTrailAdventures */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FFCDE0F62D16AE75001719BE /* Build configuration list for PBXNativeTarget "TigerTrail Adventures" */;
+			buildConfigurationList = FFCDE0F62D16AE75001719BE /* Build configuration list for PBXNativeTarget "TigerTrailAdventures" */;
 			buildPhases = (
 				22DF0E0A57FE1051C43A8EFD /* [CP] Check Pods Manifest.lock */,
 				FFCDE0DF2D16AE74001719BE /* Sources */,
 				FFCDE0E02D16AE74001719BE /* Frameworks */,
 				FFCDE0E12D16AE74001719BE /* Resources */,
 				1DE98BF0EAC0C40CFAF55512 /* [CP] Embed Pods Frameworks */,
+				CE641E886A3B6201DCD03748 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				FFCDE0E52D16AE74001719BE /* TigerTrail Adventures */,
+				FFCDE0E52D16AE74001719BE /* TigerTrailAdventures */,
 			);
-			name = "TigerTrail Adventures";
+			name = TigerTrailAdventures;
 			productName = "TigerTrail Adventures";
-			productReference = FFCDE0E32D16AE74001719BE /* TigerTrail Adventures.app */;
+			productReference = FFCDE0E32D16AE74001719BE /* TigerTrailAdventures.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -122,15 +127,17 @@
 				TargetAttributes = {
 					FFCDE0E22D16AE74001719BE = {
 						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
 					};
 				};
 			};
-			buildConfigurationList = FFCDE0DE2D16AE74001719BE /* Build configuration list for PBXProject "TigerTrail Adventures" */;
+			buildConfigurationList = FFCDE0DE2D16AE74001719BE /* Build configuration list for PBXProject "TigerTrailAdventures" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = FFCDE0DA2D16AE74001719BE;
 			minimizedProjectReferenceProxies = 1;
@@ -139,7 +146,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FFCDE0E22D16AE74001719BE /* TigerTrail Adventures */,
+				FFCDE0E22D16AE74001719BE /* TigerTrailAdventures */,
 			);
 		};
 /* End PBXProject section */
@@ -161,15 +168,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TigerTrail Adventures/Pods-TigerTrail Adventures-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-TigerTrailAdventures/Pods-TigerTrailAdventures-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TigerTrail Adventures/Pods-TigerTrail Adventures-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-TigerTrailAdventures/Pods-TigerTrailAdventures-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TigerTrail Adventures/Pods-TigerTrail Adventures-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TigerTrailAdventures/Pods-TigerTrailAdventures-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		22DF0E0A57FE1051C43A8EFD /* [CP] Check Pods Manifest.lock */ = {
@@ -187,11 +194,28 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TigerTrail Adventures-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TigerTrailAdventures-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE641E886A3B6201DCD03748 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TigerTrailAdventures/Pods-TigerTrailAdventures-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TigerTrailAdventures/Pods-TigerTrailAdventures-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TigerTrailAdventures/Pods-TigerTrailAdventures-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -209,15 +233,18 @@
 /* Begin XCBuildConfiguration section */
 		FFCDE0F72D16AE75001719BE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5410C47C836E4E766F84AB5E /* Pods-TigerTrail Adventures.debug.xcconfig */;
+			baseConfigurationReference = DDDADE124AF27BD5A4AC0941 /* Pods-TigerTrailAdventures.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TigerTrailAdventures/TigerTrailAdventures.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TigerTrail Adventures/Info.plist";
+				INFOPLIST_FILE = TigerTrailAdventures/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "TigerTrail Adventures";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "The app uses tracking to collect data on app performance and user interactions. This helps us improve features, such as optimizing functionality and providing better app performance.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -229,11 +256,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.TigerTrail-Adventures";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.TigerTrail-Adventures";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TigerTrailAdventures/TigerTrailAdventures-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -241,15 +270,18 @@
 		};
 		FFCDE0F82D16AE75001719BE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16809C97E08F5D45E474D862 /* Pods-TigerTrail Adventures.release.xcconfig */;
+			baseConfigurationReference = 0502C853337A02B06C62AB0B /* Pods-TigerTrailAdventures.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TigerTrailAdventures/TigerTrailAdventures.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TigerTrail Adventures/Info.plist";
+				INFOPLIST_FILE = TigerTrailAdventures/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "TigerTrail Adventures";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "The app uses tracking to collect data on app performance and user interactions. This helps us improve features, such as optimizing functionality and providing better app performance.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -261,11 +293,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.TigerTrail-Adventures";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.TigerTrail-Adventures";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TigerTrailAdventures/TigerTrailAdventures-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -276,6 +309,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -339,6 +373,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -393,7 +428,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FFCDE0DE2D16AE74001719BE /* Build configuration list for PBXProject "TigerTrail Adventures" */ = {
+		FFCDE0DE2D16AE74001719BE /* Build configuration list for PBXProject "TigerTrailAdventures" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FFCDE0F92D16AE75001719BE /* Debug */,
@@ -402,7 +437,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FFCDE0F62D16AE75001719BE /* Build configuration list for PBXNativeTarget "TigerTrail Adventures" */ = {
+		FFCDE0F62D16AE75001719BE /* Build configuration list for PBXNativeTarget "TigerTrailAdventures" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FFCDE0F72D16AE75001719BE /* Debug */,

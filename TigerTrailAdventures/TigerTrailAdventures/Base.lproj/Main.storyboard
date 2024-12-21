@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OwZ-Gw-hlq">
-    <device id="retina4_0" orientation="landscape" appearance="light"/>
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
@@ -19,25 +19,25 @@
         <!--Trail Home View Controller-->
         <scene sceneID="7z8-Sa-gXX">
             <objects>
-                <viewController id="y6b-xp-VYw" customClass="TrailHomeViewController" customModule="TigerTrail_Adventures" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="y6b-xp-VYw" customClass="TrailHomeViewController" customModule="TigerTrailAdventures" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="goR-hJ-dkA">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Fxf-Kw-ZYe">
-                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KSe-vT-Y83">
-                                <rect key="frame" x="20" y="20" width="159.5" height="45"/>
+                                <rect key="frame" x="20" y="19.999999999999993" width="424.66666666666669" height="119.33333333333331"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_title" translatesAutoresizingMaskIntoConstraints="NO" id="5lG-8a-Er8">
-                                        <rect key="frame" x="0.0" y="0.0" width="159.5" height="45"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="424.66666666666669" height="119.33333333333333"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="5lG-8a-Er8" secondAttribute="height" multiplier="3.56132" id="HZU-CJ-W1x"/>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4bf-Y5-fv9">
-                                        <rect key="frame" x="8" y="4" width="36" height="36.5"/>
+                                        <rect key="frame" x="8" y="11" width="95.333333333333329" height="97.333333333333314"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal">
@@ -48,7 +48,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g7S-7e-0eL">
-                                        <rect key="frame" x="52" y="8.5" width="77.5" height="28"/>
+                                        <rect key="frame" x="111.33333333333334" y="45.666666666666671" width="283.33333333333326" height="28"/>
                                         <fontDescription key="fontDescription" name="Caveat-Bold" family="Caveat" pointSize="22"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -70,10 +70,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tQ7-Vz-T0M">
-                                <rect key="frame" x="0.0" y="80" width="90.5" height="224"/>
+                                <rect key="frame" x="0.0" y="159.66666666666669" width="240.66666666666666" height="596.66666666666652"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_side" translatesAutoresizingMaskIntoConstraints="NO" id="o1H-DT-6lf">
-                                        <rect key="frame" x="0.0" y="0.0" width="90.5" height="224"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="240.66666666666666" height="596.66666666666663"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="o1H-DT-6lf" secondAttribute="height" multiplier="0.403743" id="J3H-WX-opE"/>
                                         </constraints>
@@ -88,22 +88,22 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GSr-f2-ubt">
-                                <rect key="frame" x="94.5" y="80" width="224" height="224"/>
+                                <rect key="frame" x="244.66666666666669" y="159.66666666666669" width="596.66666666666652" height="596.66666666666652"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_round" translatesAutoresizingMaskIntoConstraints="NO" id="VQP-uR-W4s">
-                                        <rect key="frame" x="0.0" y="0.0" width="224" height="224"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="596.66666666666663" height="596.66666666666663"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="VQP-uR-W4s" secondAttribute="height" multiplier="1:1" id="Or8-dz-m2d"/>
                                         </constraints>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="NGX-cD-1nf">
-                                        <rect key="frame" x="51" y="43.5" width="121.5" height="121"/>
+                                        <rect key="frame" x="136.66666666666666" y="128.66666666666666" width="323.33333333333337" height="323.33333333333337"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="NGX-cD-1nf" secondAttribute="height" multiplier="1:1" id="hrF-s7-7j5"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdP-Oo-pZ6">
-                                        <rect key="frame" x="69.5" y="164.5" width="85" height="43.5"/>
+                                        <rect key="frame" x="255.99999999999997" y="452.00000000000006" width="84.666666666666657" height="128.66666666666669"/>
                                         <string key="text">HeroicKingdom 
 Saga</string>
                                         <fontDescription key="fontDescription" name="Caveat-Bold" family="Caveat" pointSize="16"/>
@@ -126,25 +126,25 @@ Saga</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zkA-pY-QW5">
-                                <rect key="frame" x="320.5" y="53" width="231" height="278"/>
+                                <rect key="frame" x="843.33333333333348" y="88.333333333333314" width="582" height="739.33333333333348"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lrf-5o-HvL">
-                                        <rect key="frame" x="10" y="10" width="211" height="83.5"/>
+                                        <rect key="frame" x="10" y="10" width="562" height="221.66666666666666"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_home1" translatesAutoresizingMaskIntoConstraints="NO" id="yDK-hm-vju">
-                                                <rect key="frame" x="0.0" y="0.0" width="211" height="83.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="562" height="221.66666666666666"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="yDK-hm-vju" secondAttribute="height" multiplier="2.53416" id="Rov-6v-7Vl"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Highway Hustle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aca-eq-w1F">
-                                                <rect key="frame" x="88.5" y="30.5" width="100.5" height="23"/>
+                                                <rect key="frame" x="142.33333333333329" y="99.333333333333329" width="397.66666666666674" height="23"/>
                                                 <fontDescription key="fontDescription" name="Caveat-Bold" family="Caveat" pointSize="18"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_game1" translatesAutoresizingMaskIntoConstraints="NO" id="xvP-Td-NR1">
-                                                <rect key="frame" x="46" y="23.5" width="32.5" height="32.5"/>
+                                                <rect key="frame" x="45.999999999999993" y="65.666666666666686" width="86.333333333333314" height="86.333333333333314"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="xvP-Td-NR1" secondAttribute="height" multiplier="1:1" id="ub2-UY-L92"/>
                                                 </constraints>
@@ -155,7 +155,7 @@ Saga</string>
                                                 </userDefinedRuntimeAttributes>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gGG-7p-UX4">
-                                                <rect key="frame" x="6" y="13" width="199" height="57.5"/>
+                                                <rect key="frame" x="15.666666666666629" y="35.000000000000014" width="530.66666666666663" height="151.66666666666669"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <connections>
@@ -182,22 +182,22 @@ Saga</string>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y6I-A3-vF3">
-                                        <rect key="frame" x="10" y="103.5" width="211" height="83.5"/>
+                                        <rect key="frame" x="10" y="241.66666666666669" width="562" height="222"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_home2" translatesAutoresizingMaskIntoConstraints="NO" id="2R0-Aq-xab">
-                                                <rect key="frame" x="0.0" y="0.0" width="211" height="83.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="562" height="222"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="2R0-Aq-xab" secondAttribute="height" multiplier="2.53416" id="CRM-Nt-2XK"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jungle Saga" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JMP-1G-3nP">
-                                                <rect key="frame" x="100.5" y="30" width="88.5" height="23"/>
+                                                <rect key="frame" x="154.33333333333329" y="99.666666666666686" width="385.66666666666674" height="23"/>
                                                 <fontDescription key="fontDescription" name="Caveat-Bold" family="Caveat" pointSize="18"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_game2" translatesAutoresizingMaskIntoConstraints="NO" id="Unr-NO-sey">
-                                                <rect key="frame" x="46" y="23.5" width="32.5" height="32.5"/>
+                                                <rect key="frame" x="45.999999999999993" y="65.666666666666686" width="86.333333333333314" height="86.666666666666686"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Unr-NO-sey" secondAttribute="height" multiplier="1:1" id="Uws-gB-MZS"/>
                                                 </constraints>
@@ -208,7 +208,7 @@ Saga</string>
                                                 </userDefinedRuntimeAttributes>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vTN-Sc-wWw">
-                                                <rect key="frame" x="6" y="13" width="199" height="57"/>
+                                                <rect key="frame" x="15.666666666666629" y="35" width="530.66666666666663" height="152"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <connections>
                                                     <segue destination="lAU-zg-UMk" kind="show" id="gLi-1i-Rb4"/>
@@ -234,22 +234,22 @@ Saga</string>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vrx-Qe-M1W">
-                                        <rect key="frame" x="10" y="195" width="211" height="83"/>
+                                        <rect key="frame" x="10" y="471.66666666666669" width="562" height="221.66666666666669"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_home3" translatesAutoresizingMaskIntoConstraints="NO" id="ysk-SW-xL4">
-                                                <rect key="frame" x="0.0" y="0.0" width="211" height="83"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="562" height="221.66666666666666"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="ysk-SW-xL4" secondAttribute="height" multiplier="2.53416" id="6dr-D3-eR3"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Numerix Adventure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vhs-Dg-hQ6">
-                                                <rect key="frame" x="88.5" y="32" width="100.5" height="19"/>
+                                                <rect key="frame" x="142.33333333333329" y="101.33333333333337" width="397.66666666666674" height="19"/>
                                                 <fontDescription key="fontDescription" name="Caveat-Bold" family="Caveat" pointSize="15"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_game3" translatesAutoresizingMaskIntoConstraints="NO" id="tFK-iS-oFP">
-                                                <rect key="frame" x="46" y="23" width="32.5" height="32.5"/>
+                                                <rect key="frame" x="45.999999999999993" y="65.666666666666629" width="86.333333333333314" height="86.333333333333314"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="tFK-iS-oFP" secondAttribute="height" multiplier="1:1" id="d5C-99-PAl"/>
                                                 </constraints>
@@ -260,7 +260,7 @@ Saga</string>
                                                 </userDefinedRuntimeAttributes>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7i-rT-9eV">
-                                                <rect key="frame" x="6" y="13" width="199" height="57"/>
+                                                <rect key="frame" x="15.666666666666629" y="35" width="530.66666666666663" height="152"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <connections>
                                                     <segue destination="yrE-Sh-OpM" kind="show" id="UYU-by-re2"/>
@@ -328,28 +328,28 @@ Saga</string>
             </objects>
             <point key="canvasLocation" x="-37" y="-848"/>
         </scene>
-        <!--Second Game-->
+        <!--Trail Second Game Controller-->
         <scene sceneID="kPL-WP-8nG">
             <objects>
-                <viewController id="lAU-zg-UMk" customClass="SecondGame" customModule="TigerTrail_Adventures" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="lAU-zg-UMk" customClass="TrailSecondGameController" customModule="TigerTrailAdventures" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aGG-tl-bRS">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bg2" translatesAutoresizingMaskIntoConstraints="NO" id="y7s-Rm-53t">
-                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MW4-9K-6y3">
-                                <rect key="frame" x="20" y="20" width="159.5" height="45"/>
+                                <rect key="frame" x="20" y="19.999999999999993" width="424.66666666666669" height="119.33333333333331"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_title" translatesAutoresizingMaskIntoConstraints="NO" id="6Tv-CD-UM9">
-                                        <rect key="frame" x="0.0" y="0.0" width="159.5" height="45"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="424.66666666666669" height="119.33333333333333"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="6Tv-CD-UM9" secondAttribute="height" multiplier="3.56132" id="ZBE-6w-0jx"/>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Np-7n-wQA">
-                                        <rect key="frame" x="8" y="4" width="36" height="36.5"/>
+                                        <rect key="frame" x="8" y="11" width="95.333333333333329" height="97.333333333333329"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal">
@@ -360,7 +360,7 @@ Saga</string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jungle Saga" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crY-tO-cF1">
-                                        <rect key="frame" x="52" y="9.5" width="77.5" height="25.5"/>
+                                        <rect key="frame" x="111.33333333333334" y="48" width="283.33333333333326" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Caveat-Bold" family="Caveat" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -382,16 +382,16 @@ Saga</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2WZ-AN-fa8">
-                                <rect key="frame" x="406" y="23" width="142" height="38.5"/>
+                                <rect key="frame" x="-5.6666666666666572" y="28.666666666666671" width="378.66666666666663" height="102.00000000000001"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_title2" translatesAutoresizingMaskIntoConstraints="NO" id="ed4-eJ-6nq">
-                                        <rect key="frame" x="0.0" y="0.0" width="142" height="38.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="378.66666666666669" height="102"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="ed4-eJ-6nq" secondAttribute="height" multiplier="3.70256" id="afE-ns-fi3"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1j-Y5-n1l">
-                                        <rect key="frame" x="44" y="8" width="86" height="23"/>
+                                        <rect key="frame" x="44" y="40.333333333333329" width="322.66666666666669" height="21"/>
                                         <fontDescription key="fontDescription" name="Caveat-Bold" family="Caveat" pointSize="18"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -409,16 +409,16 @@ Saga</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cgj-lF-7Pp">
-                                <rect key="frame" x="243.5" y="23" width="142.5" height="38.5"/>
+                                <rect key="frame" x="-404" y="28.666666666666671" width="378.33333333333331" height="102.00000000000001"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_title2" translatesAutoresizingMaskIntoConstraints="NO" id="Kxw-F6-kqV">
-                                        <rect key="frame" x="0.0" y="0.0" width="142.5" height="38.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="378.33333333333331" height="102"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Kxw-F6-kqV" secondAttribute="height" multiplier="3.70256" id="G1Z-Ck-FOA"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqd-Ni-fDw">
-                                        <rect key="frame" x="44" y="8" width="86.5" height="23"/>
+                                        <rect key="frame" x="44" y="40.333333333333329" width="322.33333333333331" height="21"/>
                                         <fontDescription key="fontDescription" name="Caveat-Bold" family="Caveat" pointSize="18"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -436,10 +436,10 @@ Saga</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lM2-MD-39H">
-                                <rect key="frame" x="0.0" y="216" width="568" height="64"/>
+                                <rect key="frame" x="0.0" y="641.66666666666663" width="393" height="170.33333333333337"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ofL-Hn-SZf">
-                                        <rect key="frame" x="0.0" y="0.0" width="568" height="64"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="170.33333333333334"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </imageView>
                                 </subviews>
@@ -487,28 +487,28 @@ Saga</string>
             </objects>
             <point key="canvasLocation" x="578" y="24"/>
         </scene>
-        <!--Setting-->
+        <!--Trail Setting Controller-->
         <scene sceneID="4Wl-k0-SJJ">
             <objects>
-                <viewController id="K91-eJ-Sbr" customClass="Setting" customModule="TigerTrail_Adventures" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="K91-eJ-Sbr" customClass="TrailSettingController" customModule="TigerTrailAdventures" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Dp-Y2-AnM">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Jws-7u-UPV">
-                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HFi-lk-St6">
-                                <rect key="frame" x="20" y="20" width="159.5" height="45"/>
+                                <rect key="frame" x="20" y="19.999999999999993" width="424.66666666666669" height="119.33333333333331"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_title" translatesAutoresizingMaskIntoConstraints="NO" id="Y2i-DZ-m35">
-                                        <rect key="frame" x="0.0" y="0.0" width="159.5" height="45"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="424.66666666666669" height="119.33333333333333"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Y2i-DZ-m35" secondAttribute="height" multiplier="3.56132" id="47M-Uc-kHP"/>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vFO-wv-f29">
-                                        <rect key="frame" x="8" y="4" width="36" height="36.5"/>
+                                        <rect key="frame" x="8" y="11" width="95.333333333333329" height="97.333333333333329"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal">
@@ -519,7 +519,7 @@ Saga</string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Setting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D43-fn-NeC">
-                                        <rect key="frame" x="52" y="8.5" width="77.5" height="28"/>
+                                        <rect key="frame" x="111.33333333333334" y="46.666666666666671" width="283.33333333333326" height="26"/>
                                         <fontDescription key="fontDescription" name="Caveat-Bold" family="Caveat" pointSize="22"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -541,31 +541,31 @@ Saga</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Doo-nD-wFM">
-                                <rect key="frame" x="57" y="83" width="454" height="218"/>
+                                <rect key="frame" x="39.333333333333343" y="168.33333333333331" width="314.33333333333326" height="579.33333333333348"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uSf-c9-8xL">
-                                        <rect key="frame" x="10" y="10" width="226.5" height="61"/>
+                                        <rect key="frame" x="10" y="10" width="603.33333333333337" height="162.33333333333334"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_settingbtn" translatesAutoresizingMaskIntoConstraints="NO" id="FLi-fq-odL">
-                                                <rect key="frame" x="0.0" y="0.0" width="226.5" height="61"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="603.33333333333337" height="162.33333333333334"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="FLi-fq-odL" secondAttribute="height" multiplier="3.71906" id="qpN-8F-Cxv"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_aboutus" translatesAutoresizingMaskIntoConstraints="NO" id="9um-va-5CP">
-                                                <rect key="frame" x="20" y="16" width="29" height="29.5"/>
+                                                <rect key="frame" x="19.999999999999993" y="42" width="78" height="78"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="9um-va-5CP" secondAttribute="height" multiplier="1:1" id="0PI-xa-WN5"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Us" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vsf-ma-9JZ">
-                                                <rect key="frame" x="71" y="10.5" width="133.5" height="40.5"/>
+                                                <rect key="frame" x="119.99999999999997" y="62" width="461.33333333333326" height="38"/>
                                                 <fontDescription key="fontDescription" name="Caveat-Bold" family="Caveat" pointSize="32"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rzi-0A-gAn">
-                                                <rect key="frame" x="0.0" y="0.0" width="226.5" height="61"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="603.33333333333337" height="162.33333333333334"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <connections>
                                                     <segue destination="vA8-Ch-wmV" kind="show" id="ZKr-bl-PYO"/>
@@ -591,28 +591,28 @@ Saga</string>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vwd-h2-9Ke">
-                                        <rect key="frame" x="113.5" y="81" width="227" height="61"/>
+                                        <rect key="frame" x="-144.33333333333334" y="182.33333333333337" width="603" height="162"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_settingbtn" translatesAutoresizingMaskIntoConstraints="NO" id="p4F-M7-OLJ">
-                                                <rect key="frame" x="0.0" y="0.0" width="227" height="61"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="603" height="162"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="p4F-M7-OLJ" secondAttribute="height" multiplier="3.71906" id="h9V-QP-WbW"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_privacypolicy" translatesAutoresizingMaskIntoConstraints="NO" id="5f9-Pu-yxC">
-                                                <rect key="frame" x="20" y="16" width="29.5" height="29"/>
+                                                <rect key="frame" x="20" y="42" width="77.666666666666671" height="78"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="5f9-Pu-yxC" secondAttribute="height" multiplier="1:1" id="DlU-i3-bXK"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Privacy Policy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WPL-9P-tqT">
-                                                <rect key="frame" x="71.5" y="10.5" width="133.5" height="40.5"/>
+                                                <rect key="frame" x="119.66666666666666" y="62" width="461.33333333333337" height="38"/>
                                                 <fontDescription key="fontDescription" name="Caveat-Bold" family="Caveat" pointSize="32"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="keB-Z4-oFp">
-                                                <rect key="frame" x="0.0" y="0.0" width="227" height="61"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="603" height="162"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <connections>
                                                     <segue destination="EIC-ST-CiQ" kind="show" id="Mnr-8l-baj"/>
@@ -638,28 +638,28 @@ Saga</string>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="97X-vZ-4HQ">
-                                        <rect key="frame" x="217.5" y="152" width="226.5" height="61"/>
+                                        <rect key="frame" x="-299" y="354.33333333333326" width="603.33333333333337" height="162.33333333333337"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_settingbtn" translatesAutoresizingMaskIntoConstraints="NO" id="npx-zx-APA">
-                                                <rect key="frame" x="0.0" y="0.0" width="226.5" height="61"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="603.33333333333337" height="162.33333333333334"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="npx-zx-APA" secondAttribute="height" multiplier="3.71906" id="ZiQ-FR-2Zd"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_feedback" translatesAutoresizingMaskIntoConstraints="NO" id="JtN-6h-S0V">
-                                                <rect key="frame" x="20" y="16" width="29.5" height="29"/>
+                                                <rect key="frame" x="20.000000000000028" y="42.333333333333378" width="78" height="77.666666666666686"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="JtN-6h-S0V" secondAttribute="height" multiplier="1:1" id="FGK-E8-Yem"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FeedBack" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spz-gm-osb">
-                                                <rect key="frame" x="71.5" y="10.5" width="133" height="40"/>
+                                                <rect key="frame" x="120.00000000000003" y="62.333333333333371" width="461.33333333333337" height="38"/>
                                                 <fontDescription key="fontDescription" name="Caveat-Bold" family="Caveat" pointSize="32"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cD4-6Y-yeb">
-                                                <rect key="frame" x="0.0" y="0.0" width="226.5" height="61"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="603.33333333333337" height="162.33333333333334"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <connections>
                                                     <segue destination="0SC-Df-7uG" kind="show" id="kXL-3r-vSc"/>
@@ -699,7 +699,7 @@ Saga</string>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYa-1r-CgP">
-                                <rect key="frame" x="504" y="20.5" width="44" height="44"/>
+                                <rect key="frame" x="329" y="57.666666666666657" width="44" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="44" id="CN1-Ir-IEU"/>
                                     <constraint firstAttribute="height" constant="44" id="PFF-I8-pu9"/>
@@ -738,31 +738,31 @@ Saga</string>
         <!--Trail Start View Controller-->
         <scene sceneID="Iyc-SS-DEp">
             <objects>
-                <viewController id="OwZ-Gw-hlq" customClass="TrailStartViewController" customModule="TigerTrail_Adventures" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="OwZ-Gw-hlq" customClass="TrailStartViewController" customModule="TigerTrailAdventures" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ief-hJ-8y4">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bg" translatesAutoresizingMaskIntoConstraints="NO" id="cdU-eI-aLc">
-                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cEY-QT-jX5">
-                                <rect key="frame" x="170" y="234" width="228" height="64"/>
+                                <rect key="frame" x="-107" y="499.99999999999994" width="607" height="170.33333333333331"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_title" translatesAutoresizingMaskIntoConstraints="NO" id="K7Q-ow-WFZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="228" height="64"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="607" height="170.33333333333334"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="K7Q-ow-WFZ" secondAttribute="height" multiplier="3.56132" id="bP3-Md-cj9"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6TF-5X-Yq6">
-                                        <rect key="frame" x="79" y="10" width="70" height="44"/>
+                                        <rect key="frame" x="268.66666666666663" y="63" width="69.666666666666686" height="44.333333333333343"/>
                                         <fontDescription key="fontDescription" name="Caveat-Bold" family="Caveat" pointSize="35"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yh2-b3-XzR">
-                                        <rect key="frame" x="0.0" y="0.0" width="228" height="64"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="607" height="170.33333333333334"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <connections>
                                             <segue destination="8aZ-VH-ZbI" kind="presentation" modalPresentationStyle="fullScreen" id="UDH-Iv-hhV"/>
@@ -784,7 +784,7 @@ Saga</string>
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Emr-0X-Y53">
-                                <rect key="frame" x="184" y="10" width="200" height="200"/>
+                                <rect key="frame" x="96.666666666666686" y="276" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="d6c-KF-KIb"/>
                                     <constraint firstAttribute="height" constant="200" id="r1b-Lg-ukO"/>
@@ -806,6 +806,9 @@ Saga</string>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="73w-vg-j0a"/>
+                    <connections>
+                        <outlet property="startView" destination="cEY-QT-jX5" id="0n7-XH-j6o"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FCi-f7-XRi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -814,7 +817,7 @@ Saga</string>
         <!--Trail Navigation Controller-->
         <scene sceneID="bo2-DE-hvj">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="8aZ-VH-ZbI" customClass="TrailNavigationController" customModule="TigerTrail_Adventures" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="8aZ-VH-ZbI" customClass="TrailNavigationController" customModule="TigerTrailAdventures" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="I03-ez-IWX">
                         <autoresizingMask key="autoresizingMask"/>
@@ -828,28 +831,28 @@ Saga</string>
             </objects>
             <point key="canvasLocation" x="-744" y="-848"/>
         </scene>
-        <!--FeedbackVC-->
+        <!--Trail FeedbackVC-->
         <scene sceneID="w3L-QU-VaR">
             <objects>
-                <viewController id="0SC-Df-7uG" customClass="FeedbackVC" customModule="TigerTrail_Adventures" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0SC-Df-7uG" customClass="TrailFeedbackVC" customModule="TigerTrailAdventures" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pab-qS-i7I">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bg" translatesAutoresizingMaskIntoConstraints="NO" id="eMH-bM-V6o">
-                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rmd-yU-auV">
-                                <rect key="frame" x="20" y="20" width="159.5" height="45"/>
+                                <rect key="frame" x="20" y="19.999999999999993" width="424.66666666666669" height="119.33333333333331"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_title" translatesAutoresizingMaskIntoConstraints="NO" id="xIe-kJ-Hm6">
-                                        <rect key="frame" x="0.0" y="0.0" width="159.5" height="45"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="424.66666666666669" height="119.33333333333333"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="xIe-kJ-Hm6" secondAttribute="height" multiplier="3.56132" id="b7G-N7-DYR"/>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yuX-rT-M3s">
-                                        <rect key="frame" x="8" y="4" width="36" height="36.5"/>
+                                        <rect key="frame" x="8" y="11" width="95.333333333333329" height="97.333333333333329"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal">
@@ -860,7 +863,7 @@ Saga</string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FeedBack" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w0s-6x-NpG">
-                                        <rect key="frame" x="52" y="8.5" width="77.5" height="28"/>
+                                        <rect key="frame" x="111.33333333333334" y="46.666666666666671" width="283.33333333333326" height="25.666666666666671"/>
                                         <fontDescription key="fontDescription" name="Caveat-Bold" family="Caveat" pointSize="22"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -882,36 +885,36 @@ Saga</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ml4-jc-5fz">
-                                <rect key="frame" x="57" y="70.5" width="454" height="243"/>
+                                <rect key="frame" x="39.333333333333343" y="134.33333333333331" width="314.33333333333326" height="647.33333333333348"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Ng-Ee-XWf">
-                                        <rect key="frame" x="109" y="0.0" width="236" height="243"/>
+                                        <rect key="frame" x="-156.66666666666666" y="0.0" width="627.66666666666663" height="647.33333333333337"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_txtframe" translatesAutoresizingMaskIntoConstraints="NO" id="JKI-cg-8NM">
-                                                <rect key="frame" x="0.0" y="0.0" width="236" height="243"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="627.66666666666663" height="647.33333333333337"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="JKI-cg-8NM" secondAttribute="height" multiplier="0.9689" id="XJ6-RQ-aqT"/>
                                                 </constraints>
                                             </imageView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QNK-I4-WVq">
-                                                <rect key="frame" x="34.5" y="51.5" width="167" height="156"/>
+                                                <rect key="frame" x="91.666666666666657" y="124.33333333333334" width="444.33333333333337" height="414.66666666666663"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="CTH-FB-LZ8">
-                                                        <rect key="frame" x="0.0" y="0.0" width="167" height="156"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="444.33333333333331" height="414.66666666666669"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iH1-Pb-b9Q">
-                                                                <rect key="frame" x="0.0" y="0.0" width="167" height="21.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="444.33333333333331" height="73.333333333333329"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="0Qt-Om-c2t">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="30" height="21.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="80" height="73.333333333333329"/>
                                                                         <subviews>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MyU-AT-3b6">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="30" height="21.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="80" height="73.333333333333329"/>
                                                                             </imageView>
                                                                         </subviews>
                                                                     </stackView>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edp-Ww-lB6">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="30" height="21.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="80" height="73.333333333333329"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <connections>
                                                                             <action selector="oneStarTapped:" destination="0SC-Df-7uG" eventType="touchUpInside" id="G7N-p3-cP9"/>
@@ -933,21 +936,21 @@ Saga</string>
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yz0-b8-hyX">
-                                                                <rect key="frame" x="0.0" y="33.5" width="167" height="21.5"/>
+                                                                <rect key="frame" x="0.0" y="85.333333333333314" width="444.33333333333331" height="73.333333333333314"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="2aw-Fu-rld">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="67" height="21.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="177.66666666666666" height="73.333333333333329"/>
                                                                         <subviews>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HZK-h2-HXh">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="25.5" height="21.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="80.666666666666671" height="73.333333333333329"/>
                                                                             </imageView>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fBq-HP-d7G">
-                                                                                <rect key="frame" x="41.5" y="0.0" width="25.5" height="21.5"/>
+                                                                                <rect key="frame" x="96.666666666666686" y="0.0" width="81" height="73.333333333333329"/>
                                                                             </imageView>
                                                                         </subviews>
                                                                     </stackView>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPT-ss-KFn">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="67" height="21.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="177.66666666666666" height="73.333333333333329"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <connections>
                                                                             <action selector="twoStarsTapped:" destination="0SC-Df-7uG" eventType="touchUpInside" id="byO-6K-T5i"/>
@@ -969,24 +972,24 @@ Saga</string>
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H3W-1E-jmg">
-                                                                <rect key="frame" x="0.0" y="67" width="167" height="22"/>
+                                                                <rect key="frame" x="0.0" y="170.66666666666663" width="444.33333333333331" height="73.333333333333314"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="jFB-td-FEA">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="100" height="22"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="266.66666666666669" height="73.333333333333329"/>
                                                                         <subviews>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rvg-yn-8FV">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="22.5" height="22"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="78" height="73.333333333333329"/>
                                                                             </imageView>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OrC-Bn-kQU">
-                                                                                <rect key="frame" x="38.5" y="0.0" width="23" height="22"/>
+                                                                                <rect key="frame" x="94" y="0.0" width="78.333333333333314" height="73.333333333333329"/>
                                                                             </imageView>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vX3-Sj-vpm">
-                                                                                <rect key="frame" x="77.5" y="0.0" width="22.5" height="22"/>
+                                                                                <rect key="frame" x="188.33333333333331" y="0.0" width="78.333333333333314" height="73.333333333333329"/>
                                                                             </imageView>
                                                                         </subviews>
                                                                     </stackView>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GyZ-M8-zpJ">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="100" height="22"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="266.66666666666669" height="73.333333333333329"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <connections>
                                                                             <action selector="threeStarsTapped:" destination="0SC-Df-7uG" eventType="touchUpInside" id="gVS-FP-NJ9"/>
@@ -1008,27 +1011,27 @@ Saga</string>
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n9s-oI-aVN">
-                                                                <rect key="frame" x="0.0" y="101" width="167" height="21.5"/>
+                                                                <rect key="frame" x="0.0" y="255.99999999999997" width="444.33333333333331" height="73.333333333333343"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="KVi-1M-Nti">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="133.5" height="21.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="355.66666666666669" height="73.333333333333329"/>
                                                                         <subviews>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gpq-vD-TRh">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="21.5" height="21.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="76.666666666666671" height="73.333333333333329"/>
                                                                             </imageView>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="30A-wY-wm0">
-                                                                                <rect key="frame" x="37.5" y="0.0" width="21.5" height="21.5"/>
+                                                                                <rect key="frame" x="92.666666666666686" y="0.0" width="77" height="73.333333333333329"/>
                                                                             </imageView>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dK3-QH-jOg">
-                                                                                <rect key="frame" x="75" y="0.0" width="21" height="21.5"/>
+                                                                                <rect key="frame" x="185.66666666666666" y="0.0" width="76.999999999999972" height="73.333333333333329"/>
                                                                             </imageView>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0Nb-yb-G8R">
-                                                                                <rect key="frame" x="112" y="0.0" width="21.5" height="21.5"/>
+                                                                                <rect key="frame" x="278.66666666666669" y="0.0" width="77" height="73.333333333333329"/>
                                                                             </imageView>
                                                                         </subviews>
                                                                     </stackView>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZG-pj-ODQ">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="133.5" height="21.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="355.66666666666669" height="73.333333333333329"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <connections>
                                                                             <action selector="fourStarsTapped:" destination="0SC-Df-7uG" eventType="touchUpInside" id="YDC-X6-u0h"/>
@@ -1050,30 +1053,30 @@ Saga</string>
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MRn-lf-t3W">
-                                                                <rect key="frame" x="0.0" y="134.5" width="167" height="21.5"/>
+                                                                <rect key="frame" x="0.0" y="341.33333333333331" width="444.33333333333331" height="73.333333333333314"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="ZAe-ut-hI9">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="167" height="21.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="444.33333333333331" height="73.333333333333329"/>
                                                                         <subviews>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5SU-lK-siE">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="20.5" height="21.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="76" height="73.333333333333329"/>
                                                                             </imageView>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="g03-K4-qmc">
-                                                                                <rect key="frame" x="36.5" y="0.0" width="20.5" height="21.5"/>
+                                                                                <rect key="frame" x="92" y="0.0" width="76" height="73.333333333333329"/>
                                                                             </imageView>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cqF-Rv-j4d">
-                                                                                <rect key="frame" x="73" y="0.0" width="21" height="21.5"/>
+                                                                                <rect key="frame" x="184" y="0.0" width="76.333333333333314" height="73.333333333333329"/>
                                                                             </imageView>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Mr-45-xn0">
-                                                                                <rect key="frame" x="110" y="0.0" width="20.5" height="21.5"/>
+                                                                                <rect key="frame" x="276.33333333333331" y="0.0" width="76" height="73.333333333333329"/>
                                                                             </imageView>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gwx-df-hZC">
-                                                                                <rect key="frame" x="146.5" y="0.0" width="20.5" height="21.5"/>
+                                                                                <rect key="frame" x="368.33333333333337" y="0.0" width="76" height="73.333333333333329"/>
                                                                             </imageView>
                                                                         </subviews>
                                                                     </stackView>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5U-XO-q16">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="167" height="21.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="444.33333333333331" height="73.333333333333329"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <connections>
                                                                             <action selector="fiveStarsTapped:" destination="0SC-Df-7uG" eventType="touchUpInside" id="f8G-k9-hsG"/>
@@ -1121,7 +1124,7 @@ Saga</string>
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3QG-VZ-cfP">
-                                        <rect key="frame" x="365" y="89.5" width="64" height="64"/>
+                                        <rect key="frame" x="491.00000000000006" y="238.33333333333337" width="170.33333333333331" height="170.66666666666663"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="3QG-VZ-cfP" secondAttribute="height" multiplier="1:1" id="GRt-c9-NaQ"/>
@@ -1196,28 +1199,28 @@ Saga</string>
             </objects>
             <point key="canvasLocation" x="2123" y="-849"/>
         </scene>
-        <!--Third Game-->
+        <!--Trail Third Game Controller-->
         <scene sceneID="nul-n8-VWl">
             <objects>
-                <viewController id="yrE-Sh-OpM" customClass="ThirdGame" customModule="TigerTrail_Adventures" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="yrE-Sh-OpM" customClass="TrailThirdGameController" customModule="TigerTrailAdventures" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="obe-k5-OEz">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Xca-sy-pLs">
-                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z9I-9h-OJU">
-                                <rect key="frame" x="20" y="20" width="159.5" height="45"/>
+                                <rect key="frame" x="20" y="19.999999999999993" width="424.66666666666669" height="119.33333333333331"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_title" translatesAutoresizingMaskIntoConstraints="NO" id="zlL-wU-3el">
-                                        <rect key="frame" x="0.0" y="0.0" width="159.5" height="45"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="424.66666666666669" height="119.33333333333333"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="zlL-wU-3el" secondAttribute="height" multiplier="3.56132" id="RWC-Q5-IYB"/>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="knW-tx-IQD">
-                                        <rect key="frame" x="8" y="4" width="36" height="36.5"/>
+                                        <rect key="frame" x="8" y="11" width="95.333333333333329" height="97.333333333333329"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal">
@@ -1228,7 +1231,7 @@ Saga</string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Numerix Adventure" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ok-or-HL0">
-                                        <rect key="frame" x="52" y="2" width="77.5" height="40.5"/>
+                                        <rect key="frame" x="111.33333333333334" y="50.333333333333329" width="283.33333333333326" height="18.666666666666671"/>
                                         <fontDescription key="fontDescription" name="Caveat-Bold" family="Caveat" pointSize="16"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -1250,16 +1253,16 @@ Saga</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CTF-St-mBi">
-                                <rect key="frame" x="406" y="23" width="142" height="38.5"/>
+                                <rect key="frame" x="-5.6666666666666572" y="28.666666666666671" width="378.66666666666663" height="102.00000000000001"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_title2" translatesAutoresizingMaskIntoConstraints="NO" id="ANJ-0o-boF">
-                                        <rect key="frame" x="0.0" y="0.0" width="142" height="38.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="378.66666666666669" height="102"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="ANJ-0o-boF" secondAttribute="height" multiplier="3.70256" id="tgy-Wx-GEM"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="caZ-K2-x7L">
-                                        <rect key="frame" x="44" y="8" width="86" height="23"/>
+                                        <rect key="frame" x="44" y="40.333333333333329" width="322.66666666666669" height="21"/>
                                         <fontDescription key="fontDescription" name="Caveat-Bold" family="Caveat" pointSize="18"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -1277,16 +1280,16 @@ Saga</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="beF-xO-Ejf">
-                                <rect key="frame" x="391.5" y="71.5" width="170.5" height="46"/>
+                                <rect key="frame" x="-43.333333333333343" y="140.66666666666666" width="454.33333333333337" height="122.66666666666666"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_title2" translatesAutoresizingMaskIntoConstraints="NO" id="Hai-AT-c91">
-                                        <rect key="frame" x="0.0" y="0.0" width="170.5" height="46"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="454.33333333333331" height="122.66666666666667"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Hai-AT-c91" secondAttribute="height" multiplier="3.70256" id="kNx-nu-cOs"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otP-VX-dm1">
-                                        <rect key="frame" x="44" y="13" width="114.5" height="20.5"/>
+                                        <rect key="frame" x="44" y="52" width="398.33333333333331" height="18.666666666666671"/>
                                         <fontDescription key="fontDescription" name="Caveat-Bold" family="Caveat" pointSize="16"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -1304,10 +1307,10 @@ Saga</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8kN-E5-6Ti">
-                                <rect key="frame" x="172" y="66" width="224" height="224"/>
+                                <rect key="frame" x="-101.66666666666669" y="225.66666666666669" width="596.33333333333337" height="596.33333333333326"/>
                                 <subviews>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Fbd-FR-soE">
-                                        <rect key="frame" x="0.0" y="0.0" width="224" height="224"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="596.33333333333337" height="596.33333333333337"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="EDc-fE-IXL">
                                             <size key="itemSize" width="128" height="128"/>
@@ -1316,15 +1319,15 @@ Saga</string>
                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="NumberCell" id="zyc-1M-235" customClass="NumberCell" customModule="TigerTrail_Adventures" customModuleProvider="target">
-                                                <rect key="frame" x="48" y="0.0" width="128" height="128"/>
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="NumberCell" id="zyc-1M-235" customClass="NumberCell" customModule="TigerTrailAdventures" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="d40-Ia-gL8">
                                                     <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egJ-0W-srC">
-                                                            <rect key="frame" x="42" y="49" width="44" height="30"/>
+                                                            <rect key="frame" x="34.666666666666657" y="50" width="59" height="28"/>
                                                             <fontDescription key="fontDescription" name="Caveat-Bold" family="Caveat" pointSize="24"/>
                                                             <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
@@ -1384,28 +1387,28 @@ Saga</string>
             </objects>
             <point key="canvasLocation" x="1333" y="43"/>
         </scene>
-        <!--About Us-->
+        <!--Trail About Us Controller-->
         <scene sceneID="ekL-lI-tam">
             <objects>
-                <viewController id="vA8-Ch-wmV" customClass="AboutUs" customModule="TigerTrail_Adventures" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vA8-Ch-wmV" customClass="TrailAboutUsController" customModule="TigerTrailAdventures" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="j8F-nV-Jk5">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bg" translatesAutoresizingMaskIntoConstraints="NO" id="oKA-fB-Bi6">
-                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iww-dY-ZLw">
-                                <rect key="frame" x="20" y="20" width="159.5" height="45"/>
+                                <rect key="frame" x="20" y="19.999999999999993" width="424.66666666666669" height="119.33333333333331"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_title" translatesAutoresizingMaskIntoConstraints="NO" id="Khb-xs-xei">
-                                        <rect key="frame" x="0.0" y="0.0" width="159.5" height="45"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="424.66666666666669" height="119.33333333333333"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Khb-xs-xei" secondAttribute="height" multiplier="3.56132" id="1Hr-Un-6HQ"/>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkN-KB-1BD">
-                                        <rect key="frame" x="8" y="4" width="36" height="36.5"/>
+                                        <rect key="frame" x="8" y="11" width="95.333333333333329" height="97.333333333333329"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal">
@@ -1416,7 +1419,7 @@ Saga</string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Us" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mXP-De-L1W">
-                                        <rect key="frame" x="52" y="8.5" width="77.5" height="28"/>
+                                        <rect key="frame" x="111.33333333333334" y="46.666666666666671" width="283.33333333333326" height="25.666666666666671"/>
                                         <fontDescription key="fontDescription" name="Caveat-Bold" family="Caveat" pointSize="22"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -1438,29 +1441,29 @@ Saga</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RCL-EU-EIw">
-                                <rect key="frame" x="0.0" y="70.5" width="568" height="243"/>
+                                <rect key="frame" x="0.0" y="134.33333333333331" width="393" height="647.33333333333348"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V2L-8Y-22U">
-                                        <rect key="frame" x="166" y="0.0" width="236" height="243"/>
+                                        <rect key="frame" x="-117.33333333333331" y="0.0" width="627.66666666666663" height="647.33333333333337"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_txtframe" translatesAutoresizingMaskIntoConstraints="NO" id="fuG-yg-T76">
-                                                <rect key="frame" x="0.0" y="0.0" width="236" height="243"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="627.66666666666663" height="647.33333333333337"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="fuG-yg-T76" secondAttribute="height" multiplier="0.9689" id="mfF-Lm-hF8"/>
                                                 </constraints>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EXt-xd-VMS">
-                                                <rect key="frame" x="35" y="51.5" width="162" height="156"/>
+                                                <rect key="frame" x="96.000000000000028" y="124.66666666666663" width="431.66666666666674" height="414"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <string key="text">TigerTrail Adventures
-Welcome TigerTrail Adventures, the ultimate destination for thrilling adventures, strategic challenges, and endless fun! Our app is a vibrant universe where every tap and swipe takes you closer to glory. From fast-paced journeys on highways to strategic number-matching in mystical jungleTigerTrail Adventures offers a diverse gaming experience that keeps players of all ages engaged.
+                                                <string key="text">TigerTrailAdventures
+Welcome TigerTrailAdventures, the ultimate destination for thrilling adventures, strategic challenges, and endless fun! Our app is a vibrant universe where every tap and swipe takes you closer to glory. From fast-paced journeys on highways to strategic number-matching in mystical jungleTigerTrailAdventures offers a diverse gaming experience that keeps players of all ages engaged.
 
 Explore Our Games:
 	•	Highway Hustle: Put your reflexes to the test in this adrenaline-pumping highway adventure. Dodge obstacles, race against time, and collect rewards as you conquer the fast lanes.
 	•	Jungle Saga: Dive into the heart of the jungle in this epic puzzle journey. Match pairs, unlock secrets, and explore the depths of a magical wilderness.
 	•	Numerix Adventure: A brain-boosting challenge that combines strategy and speed. Match numbers, score points, and prove your mastery in a thrilling 5x5 grid challenge!
 
-TigerTrail Adventures, we believe in crafting games that are not only entertaining but also push the boundaries of creativity and challenge. Join us in this saga of heroics and embark on adventures that test your skill, wit, and perseverance.</string>
+TigerTrailAdventures, we believe in crafting games that are not only entertaining but also push the boundaries of creativity and challenge. Join us in this saga of heroics and embark on adventures that test your skill, wit, and perseverance.</string>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="Caveat-Bold" family="Caveat" pointSize="15"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1512,25 +1515,25 @@ TigerTrail Adventures, we believe in crafting games that are not only entertaini
         <!--View Controller-->
         <scene sceneID="Mvi-05-dQG">
             <objects>
-                <viewController id="DdU-4Y-0Ha" customClass="ViewController" customModule="TigerTrail_Adventures" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="DdU-4Y-0Ha" customClass="ViewController" customModule="TigerTrailAdventures" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Q5-0G-gqi">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bg" translatesAutoresizingMaskIntoConstraints="NO" id="T3L-Px-pbr">
-                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zu0-1u-NhI">
-                                <rect key="frame" x="20" y="20" width="159.5" height="45"/>
+                                <rect key="frame" x="20" y="19.999999999999993" width="424.66666666666669" height="119.33333333333331"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_title" translatesAutoresizingMaskIntoConstraints="NO" id="tHq-2B-DNn">
-                                        <rect key="frame" x="0.0" y="0.0" width="159.5" height="45"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="424.66666666666669" height="119.33333333333333"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="tHq-2B-DNn" secondAttribute="height" multiplier="3.56132" id="tez-MB-T5V"/>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tXA-dt-5RS">
-                                        <rect key="frame" x="8" y="4" width="36" height="36.5"/>
+                                        <rect key="frame" x="8" y="11" width="95.333333333333329" height="97.333333333333314"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal">
@@ -1541,7 +1544,7 @@ TigerTrail Adventures, we believe in crafting games that are not only entertaini
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Highway Hustle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bA5-Je-GlC">
-                                        <rect key="frame" x="52" y="9.5" width="77.5" height="25.5"/>
+                                        <rect key="frame" x="111.33333333333334" y="47" width="283.33333333333326" height="25.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Caveat-Bold" family="Caveat" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -1563,10 +1566,10 @@ TigerTrail Adventures, we believe in crafting games that are not only entertaini
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dsY-fk-OoL">
-                                <rect key="frame" x="0.0" y="88" width="568" height="192"/>
+                                <rect key="frame" x="0.0" y="300.66666666666674" width="393" height="511.33333333333326"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_road" translatesAutoresizingMaskIntoConstraints="NO" id="dEY-aE-yf1">
-                                        <rect key="frame" x="0.0" y="0.0" width="568" height="192"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="511.33333333333331"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1578,16 +1581,16 @@ TigerTrail Adventures, we believe in crafting games that are not only entertaini
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bu6-ud-8nI">
-                                <rect key="frame" x="406" y="23" width="142" height="38.5"/>
+                                <rect key="frame" x="-5.6666666666666288" y="28.666666666666671" width="378.66666666666663" height="102.00000000000001"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_title2" translatesAutoresizingMaskIntoConstraints="NO" id="k3U-nV-w7t">
-                                        <rect key="frame" x="0.0" y="0.0" width="142" height="38.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="378.66666666666669" height="102"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="k3U-nV-w7t" secondAttribute="height" multiplier="3.70256" id="LsF-nd-yat"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pYf-N5-Dhm">
-                                        <rect key="frame" x="44" y="8" width="86" height="23"/>
+                                        <rect key="frame" x="44" y="39.333333333333329" width="322.66666666666669" height="23"/>
                                         <fontDescription key="fontDescription" name="Caveat-Bold" family="Caveat" pointSize="18"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -1605,16 +1608,16 @@ TigerTrail Adventures, we believe in crafting games that are not only entertaini
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DG7-Am-D4W">
-                                <rect key="frame" x="243.5" y="23" width="142.5" height="38.5"/>
+                                <rect key="frame" x="-404" y="28.666666666666671" width="378.33333333333326" height="102.00000000000001"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_title2" translatesAutoresizingMaskIntoConstraints="NO" id="7cV-hl-cKm">
-                                        <rect key="frame" x="0.0" y="0.0" width="142.5" height="38.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="378.33333333333331" height="102"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="7cV-hl-cKm" secondAttribute="height" multiplier="3.70256" id="Lww-fm-qKM"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timer" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6o3-jM-FfX">
-                                        <rect key="frame" x="44" y="8" width="86.5" height="23"/>
+                                        <rect key="frame" x="44" y="39.333333333333329" width="322.33333333333331" height="23"/>
                                         <fontDescription key="fontDescription" name="Caveat-Bold" family="Caveat" pointSize="18"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -1667,16 +1670,16 @@ TigerTrail Adventures, we believe in crafting games that are not only entertaini
             </objects>
             <point key="canvasLocation" x="-89" y="43"/>
         </scene>
-        <!--Privacy Policy-->
+        <!--Trail Privacy Policy Controller-->
         <scene sceneID="wFr-X5-Q6Z">
             <objects>
-                <viewController id="EIC-ST-CiQ" customClass="PrivacyPolicy" customModule="TigerTrail_Adventures" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TrailPrivacyPolicyController" id="EIC-ST-CiQ" customClass="TrailPrivacyPolicyController" customModule="TigerTrailAdventures" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O4p-Cj-iN9">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nf3-dm-d60">
-                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -1684,16 +1687,16 @@ TigerTrail Adventures, we believe in crafting games that are not only entertaini
                                 </wkWebViewConfiguration>
                             </wkWebView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7bb-pQ-ah9">
-                                <rect key="frame" x="400.5" y="20" width="159.5" height="45"/>
+                                <rect key="frame" x="-39.666666666666657" y="19.999999999999993" width="424.66666666666663" height="119.33333333333331"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_title" translatesAutoresizingMaskIntoConstraints="NO" id="wyX-lJ-6gu">
-                                        <rect key="frame" x="0.0" y="0.0" width="159.5" height="45"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="424.66666666666669" height="119.33333333333333"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="wyX-lJ-6gu" secondAttribute="height" multiplier="3.56132" id="kzt-ei-rcz"/>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="guN-YB-hcF">
-                                        <rect key="frame" x="8" y="4" width="36" height="36.5"/>
+                                        <rect key="frame" x="7.9999999999999929" y="11" width="95.333333333333314" height="97.333333333333329"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal">
@@ -1704,7 +1707,7 @@ TigerTrail Adventures, we believe in crafting games that are not only entertaini
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Privacy Policy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CYc-C4-DWh">
-                                        <rect key="frame" x="52" y="8.5" width="77.5" height="28"/>
+                                        <rect key="frame" x="111.33333333333334" y="45.666666666666671" width="283.33333333333326" height="28"/>
                                         <fontDescription key="fontDescription" name="Caveat-Bold" family="Caveat" pointSize="22"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -1726,7 +1729,7 @@ TigerTrail Adventures, we believe in crafting games that are not only entertaini
                                 </constraints>
                             </view>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="4g9-Sg-nU9">
-                                <rect key="frame" x="274" y="150" width="20" height="20"/>
+                                <rect key="frame" x="186.66666666666666" y="416" width="20" height="20"/>
                             </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Nyx-8a-QS2"/>
@@ -1744,6 +1747,13 @@ TigerTrail Adventures, we believe in crafting games that are not only entertaini
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="q9U-zu-c4U"/>
+                    <connections>
+                        <outlet property="backView" destination="7bb-pQ-ah9" id="feW-GU-dpw"/>
+                        <outlet property="bottomCos" destination="JYf-id-05j" id="j9y-bn-aIu"/>
+                        <outlet property="indicatorView" destination="4g9-Sg-nU9" id="po9-yA-u8i"/>
+                        <outlet property="topCos" destination="Z5E-WA-kPy" id="nqw-Hb-6n4"/>
+                        <outlet property="trailWebView" destination="Nf3-dm-d60" id="Ktt-UJ-qy0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JCt-kq-1E5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

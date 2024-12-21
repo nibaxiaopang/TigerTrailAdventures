@@ -2,7 +2,7 @@
 //  NumberCell.swift
 //  TigerTrail Adventures
 //
-//  Created by jin fu on 2024/12/21.
+//  Created by TigerTrail Adventures on 2024/12/21.
 //
 
 import UIKit

@@ -2,13 +2,13 @@
 //  FeedbackVC.swift
 //  TigerTrail Adventures
 //
-//  Created by jin fu on 2024/12/21.
+//  Created by TigerTrail Adventures on 2024/12/21.
 //
 
 
 import UIKit
 
-class FeedbackVC: UIViewController {
+class TrailFeedbackVC: UIViewController {
     
     @IBOutlet weak var btnOneStar: UIButton!
     @IBOutlet weak var btnFourStar: UIButton!
